@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+/* Main container */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 30px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Text */
+.main h3 {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.record {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.r {
+    font-weight: bold;
+    color: #ffd700;
+}
+
+/* Difficulty section */
+.levels p {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.levels button {
+    display: block;
+    width: 100%;
+    margin: 8px 0;
+    padding: 12px;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Buttons styles */
+.легко {
+    background: #4CAF50;
+    color: white;
+}
+
+.середньо {
+    background: #ff9800;
+    color: white;
+}
+
+.важко {
+    background: #f44336;
+    color: white;
+}
+
+/* Hover effects */
+.levels button:hover {
+    transform: scale(1.05);
+    opacity: 0.9;
+}
